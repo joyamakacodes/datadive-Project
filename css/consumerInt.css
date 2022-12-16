@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.consumerBody{
+    background: #F9FFFC;
+}
+.consumerHeading{
+    margin: 30px;
+    text-align: center;
+    
+}
+.headingBorder{
+    width: 15%;
+    margin: auto;
+    border-bottom: 3px solid #049A8F;
+}
+.getRBtn{
+    background: #0D8744;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+.getRBtn:hover{
+    border: 1px solid #0D8744;
+    color: #0D8744;
+}
+.performance{
+    border: 1px solid rgb(228, 222, 222);
+    padding:  30px 60px;
+    margin: 30px 0px;
+}
+.colorlessBg{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #DEEAE3;
+}
+.coloredBg{
+    background: #DEEAE3;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.demoHead{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #DEEAE3;
+}
+.modal2{
+    width:300px;
+}
+.cards p{
+font-size: 12px;
+}
+.Closure{
+    background-color: white;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+}
+
+@media (max-width: 768px){
+    .getRBtn{
+        width: 100%;
+    }  
+    .consumerPercent{
+      display: flex;
+      flex-direction: column;
+    }
+    .Demographics{
+      display: flex;
+      flex-direction: column;
+    }
+    .cards .col{
+        margin-bottom: 10px;
+    }
+    .Closure{
+        position: absolute;
+    left: 70%;
+    top: 0px;
+    }
+}
+
